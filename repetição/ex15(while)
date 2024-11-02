@@ -1,0 +1,19 @@
+while True:
+    print("1. cumprimentar")
+    print("2. somar dois números")
+    print("3. sair")
+    
+    opc = int(input("Escolha uma opção: "))
+    
+    if opc == 1:
+        print("Olá!")
+    elif opc == 2:
+        n1 = int(input("Digite o primeiro número: "))
+        n2 = int(input("Digite o segundo número: "))
+        resultado = n1 + n2
+        print("A soma dos dois números é:", resultado)
+    elif opc == 3:
+        print("Programa encerrado")
+        break
+    else:
+        print("Opção inválida")

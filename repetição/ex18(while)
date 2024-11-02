@@ -1,0 +1,10 @@
+frase = input("digite uma frase")
+indice = 0
+contador = 0
+
+while indice < len(frase):
+    if frase [indice].isnumeric():
+        contador += 1
+    indice += 1
+
+print("número de dígitos encontrado na frase:", contador)
